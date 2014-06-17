@@ -1,0 +1,472 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FC43F68619505A1900BAD93B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC43F68519505A1900BAD93B /* Foundation.framework */; };
+		FC43F68819505A1900BAD93B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC43F68719505A1900BAD93B /* CoreGraphics.framework */; };
+		FC43F68A19505A1900BAD93B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC43F68919505A1900BAD93B /* UIKit.framework */; };
+		FC43F69019505A1900BAD93B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC43F68E19505A1900BAD93B /* InfoPlist.strings */; };
+		FC43F69219505A1900BAD93B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC43F69119505A1900BAD93B /* main.m */; };
+		FC43F69619505A1900BAD93B /* BGMAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC43F69519505A1900BAD93B /* BGMAppDelegate.m */; };
+		FC43F69919505A1900BAD93B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FC43F69719505A1900BAD93B /* Main.storyboard */; };
+		FC43F69C19505A1900BAD93B /* BGMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC43F69B19505A1900BAD93B /* BGMViewController.m */; };
+		FC43F69E19505A1900BAD93B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FC43F69D19505A1900BAD93B /* Images.xcassets */; };
+		FC43F6A519505A1900BAD93B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC43F6A419505A1900BAD93B /* XCTest.framework */; };
+		FC43F6A619505A1900BAD93B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC43F68519505A1900BAD93B /* Foundation.framework */; };
+		FC43F6A719505A1900BAD93B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC43F68919505A1900BAD93B /* UIKit.framework */; };
+		FC43F6AF19505A1900BAD93B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC43F6AD19505A1900BAD93B /* InfoPlist.strings */; };
+		FC43F6B119505A1900BAD93B /* Quartz_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC43F6B019505A1900BAD93B /* Quartz_TestTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FC43F6A819505A1900BAD93B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FC43F67A19505A1900BAD93B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FC43F68119505A1900BAD93B;
+			remoteInfo = "Quartz Test";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FC43F68219505A1900BAD93B /* Quartz Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Quartz Test.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC43F68519505A1900BAD93B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		FC43F68719505A1900BAD93B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FC43F68919505A1900BAD93B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		FC43F68D19505A1900BAD93B /* Quartz Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Quartz Test-Info.plist"; sourceTree = "<group>"; };
+		FC43F68F19505A1900BAD93B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC43F69119505A1900BAD93B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FC43F69319505A1900BAD93B /* Quartz Test-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Quartz Test-Prefix.pch"; sourceTree = "<group>"; };
+		FC43F69419505A1900BAD93B /* BGMAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGMAppDelegate.h; sourceTree = "<group>"; };
+		FC43F69519505A1900BAD93B /* BGMAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGMAppDelegate.m; sourceTree = "<group>"; };
+		FC43F69819505A1900BAD93B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FC43F69A19505A1900BAD93B /* BGMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGMViewController.h; sourceTree = "<group>"; };
+		FC43F69B19505A1900BAD93B /* BGMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BGMViewController.m; sourceTree = "<group>"; };
+		FC43F69D19505A1900BAD93B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		FC43F6A319505A1900BAD93B /* Quartz TestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Quartz TestTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC43F6A419505A1900BAD93B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		FC43F6AC19505A1900BAD93B /* Quartz TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Quartz TestTests-Info.plist"; sourceTree = "<group>"; };
+		FC43F6AE19505A1900BAD93B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		FC43F6B019505A1900BAD93B /* Quartz_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quartz_TestTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FC43F67F19505A1900BAD93B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC43F68819505A1900BAD93B /* CoreGraphics.framework in Frameworks */,
+				FC43F68A19505A1900BAD93B /* UIKit.framework in Frameworks */,
+				FC43F68619505A1900BAD93B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC43F6A019505A1900BAD93B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC43F6A519505A1900BAD93B /* XCTest.framework in Frameworks */,
+				FC43F6A719505A1900BAD93B /* UIKit.framework in Frameworks */,
+				FC43F6A619505A1900BAD93B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FC43F67919505A1900BAD93B = {
+			isa = PBXGroup;
+			children = (
+				FC43F68B19505A1900BAD93B /* Quartz Test */,
+				FC43F6AA19505A1900BAD93B /* Quartz TestTests */,
+				FC43F68419505A1900BAD93B /* Frameworks */,
+				FC43F68319505A1900BAD93B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FC43F68319505A1900BAD93B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FC43F68219505A1900BAD93B /* Quartz Test.app */,
+				FC43F6A319505A1900BAD93B /* Quartz TestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FC43F68419505A1900BAD93B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FC43F68519505A1900BAD93B /* Foundation.framework */,
+				FC43F68719505A1900BAD93B /* CoreGraphics.framework */,
+				FC43F68919505A1900BAD93B /* UIKit.framework */,
+				FC43F6A419505A1900BAD93B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FC43F68B19505A1900BAD93B /* Quartz Test */ = {
+			isa = PBXGroup;
+			children = (
+				FC43F69419505A1900BAD93B /* BGMAppDelegate.h */,
+				FC43F69519505A1900BAD93B /* BGMAppDelegate.m */,
+				FC43F69719505A1900BAD93B /* Main.storyboard */,
+				FC43F69A19505A1900BAD93B /* BGMViewController.h */,
+				FC43F69B19505A1900BAD93B /* BGMViewController.m */,
+				FC43F69D19505A1900BAD93B /* Images.xcassets */,
+				FC43F68C19505A1900BAD93B /* Supporting Files */,
+			);
+			path = "Quartz Test";
+			sourceTree = "<group>";
+		};
+		FC43F68C19505A1900BAD93B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC43F68D19505A1900BAD93B /* Quartz Test-Info.plist */,
+				FC43F68E19505A1900BAD93B /* InfoPlist.strings */,
+				FC43F69119505A1900BAD93B /* main.m */,
+				FC43F69319505A1900BAD93B /* Quartz Test-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FC43F6AA19505A1900BAD93B /* Quartz TestTests */ = {
+			isa = PBXGroup;
+			children = (
+				FC43F6B019505A1900BAD93B /* Quartz_TestTests.m */,
+				FC43F6AB19505A1900BAD93B /* Supporting Files */,
+			);
+			path = "Quartz TestTests";
+			sourceTree = "<group>";
+		};
+		FC43F6AB19505A1900BAD93B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC43F6AC19505A1900BAD93B /* Quartz TestTests-Info.plist */,
+				FC43F6AD19505A1900BAD93B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FC43F68119505A1900BAD93B /* Quartz Test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC43F6B419505A1900BAD93B /* Build configuration list for PBXNativeTarget "Quartz Test" */;
+			buildPhases = (
+				FC43F67E19505A1900BAD93B /* Sources */,
+				FC43F67F19505A1900BAD93B /* Frameworks */,
+				FC43F68019505A1900BAD93B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Quartz Test";
+			productName = "Quartz Test";
+			productReference = FC43F68219505A1900BAD93B /* Quartz Test.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FC43F6A219505A1900BAD93B /* Quartz TestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FC43F6B719505A1900BAD93B /* Build configuration list for PBXNativeTarget "Quartz TestTests" */;
+			buildPhases = (
+				FC43F69F19505A1900BAD93B /* Sources */,
+				FC43F6A019505A1900BAD93B /* Frameworks */,
+				FC43F6A119505A1900BAD93B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FC43F6A919505A1900BAD93B /* PBXTargetDependency */,
+			);
+			name = "Quartz TestTests";
+			productName = "Quartz TestTests";
+			productReference = FC43F6A319505A1900BAD93B /* Quartz TestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FC43F67A19505A1900BAD93B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = BGM;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "馬 岩";
+				TargetAttributes = {
+					FC43F6A219505A1900BAD93B = {
+						TestTargetID = FC43F68119505A1900BAD93B;
+					};
+				};
+			};
+			buildConfigurationList = FC43F67D19505A1900BAD93B /* Build configuration list for PBXProject "Quartz Test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FC43F67919505A1900BAD93B;
+			productRefGroup = FC43F68319505A1900BAD93B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FC43F68119505A1900BAD93B /* Quartz Test */,
+				FC43F6A219505A1900BAD93B /* Quartz TestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FC43F68019505A1900BAD93B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC43F69E19505A1900BAD93B /* Images.xcassets in Resources */,
+				FC43F69019505A1900BAD93B /* InfoPlist.strings in Resources */,
+				FC43F69919505A1900BAD93B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC43F6A119505A1900BAD93B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC43F6AF19505A1900BAD93B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FC43F67E19505A1900BAD93B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC43F69219505A1900BAD93B /* main.m in Sources */,
+				FC43F69619505A1900BAD93B /* BGMAppDelegate.m in Sources */,
+				FC43F69C19505A1900BAD93B /* BGMViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FC43F69F19505A1900BAD93B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FC43F6B119505A1900BAD93B /* Quartz_TestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FC43F6A919505A1900BAD93B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FC43F68119505A1900BAD93B /* Quartz Test */;
+			targetProxy = FC43F6A819505A1900BAD93B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FC43F68E19505A1900BAD93B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC43F68F19505A1900BAD93B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		FC43F69719505A1900BAD93B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC43F69819505A1900BAD93B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FC43F6AD19505A1900BAD93B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FC43F6AE19505A1900BAD93B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FC43F6B219505A1900BAD93B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		FC43F6B319505A1900BAD93B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FC43F6B519505A1900BAD93B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Quartz Test/Quartz Test-Prefix.pch";
+				INFOPLIST_FILE = "Quartz Test/Quartz Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		FC43F6B619505A1900BAD93B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Quartz Test/Quartz Test-Prefix.pch";
+				INFOPLIST_FILE = "Quartz Test/Quartz Test-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		FC43F6B819505A1900BAD93B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Quartz Test.app/Quartz Test";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Quartz Test/Quartz Test-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Quartz TestTests/Quartz TestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		FC43F6B919505A1900BAD93B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Quartz Test.app/Quartz Test";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Quartz Test/Quartz Test-Prefix.pch";
+				INFOPLIST_FILE = "Quartz TestTests/Quartz TestTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FC43F67D19505A1900BAD93B /* Build configuration list for PBXProject "Quartz Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC43F6B219505A1900BAD93B /* Debug */,
+				FC43F6B319505A1900BAD93B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FC43F6B419505A1900BAD93B /* Build configuration list for PBXNativeTarget "Quartz Test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC43F6B519505A1900BAD93B /* Debug */,
+				FC43F6B619505A1900BAD93B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		FC43F6B719505A1900BAD93B /* Build configuration list for PBXNativeTarget "Quartz TestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FC43F6B819505A1900BAD93B /* Debug */,
+				FC43F6B919505A1900BAD93B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FC43F67A19505A1900BAD93B /* Project object */;
+}

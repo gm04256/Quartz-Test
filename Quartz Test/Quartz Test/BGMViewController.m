@@ -8,6 +8,10 @@
 
 #import "BGMViewController.h"
 
+#import "BGMConstants.h"
+
+#import "UIColor+BGMRandom.h"
+
 @interface BGMViewController ()
 
 @end

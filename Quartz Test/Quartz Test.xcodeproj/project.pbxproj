@@ -21,6 +21,9 @@
 		FC43F6A719505A1900BAD93B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC43F68919505A1900BAD93B /* UIKit.framework */; };
 		FC43F6AF19505A1900BAD93B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = FC43F6AD19505A1900BAD93B /* InfoPlist.strings */; };
 		FC43F6B119505A1900BAD93B /* Quartz_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FC43F6B019505A1900BAD93B /* Quartz_TestTests.m */; };
+		FC43F6BC19512ABA00BAD93B /* BGMMyView.m in Sources */ = {isa = PBXBuildFile; fileRef = FC43F6BB19512ABA00BAD93B /* BGMMyView.m */; };
+		FC43F6BE1951758200BAD93B /* brazil world cup.png in Resources */ = {isa = PBXBuildFile; fileRef = FC43F6BD1951758200BAD93B /* brazil world cup.png */; };
+		FC43F6C219518F7A00BAD93B /* UIColor+BGMRandom.m in Sources */ = {isa = PBXBuildFile; fileRef = FC43F6C119518F7A00BAD93B /* UIColor+BGMRandom.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +56,12 @@
 		FC43F6AC19505A1900BAD93B /* Quartz TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Quartz TestTests-Info.plist"; sourceTree = "<group>"; };
 		FC43F6AE19505A1900BAD93B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FC43F6B019505A1900BAD93B /* Quartz_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Quartz_TestTests.m; sourceTree = "<group>"; };
+		FC43F6BA19512ABA00BAD93B /* BGMMyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BGMMyView.h; sourceTree = "<group>"; };
+		FC43F6BB19512ABA00BAD93B /* BGMMyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BGMMyView.m; sourceTree = "<group>"; };
+		FC43F6BD1951758200BAD93B /* brazil world cup.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "brazil world cup.png"; sourceTree = "<group>"; };
+		FC43F6BF19518F2100BAD93B /* BGMConstants.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BGMConstants.h; sourceTree = "<group>"; };
+		FC43F6C019518F7A00BAD93B /* UIColor+BGMRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+BGMRandom.h"; sourceTree = "<group>"; };
+		FC43F6C119518F7A00BAD93B /* UIColor+BGMRandom.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+BGMRandom.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,7 +127,13 @@
 				FC43F69A19505A1900BAD93B /* BGMViewController.h */,
 				FC43F69B19505A1900BAD93B /* BGMViewController.m */,
 				FC43F69D19505A1900BAD93B /* Images.xcassets */,
+				FC43F6BD1951758200BAD93B /* brazil world cup.png */,
 				FC43F68C19505A1900BAD93B /* Supporting Files */,
+				FC43F6BA19512ABA00BAD93B /* BGMMyView.h */,
+				FC43F6BB19512ABA00BAD93B /* BGMMyView.m */,
+				FC43F6BF19518F2100BAD93B /* BGMConstants.h */,
+				FC43F6C019518F7A00BAD93B /* UIColor+BGMRandom.h */,
+				FC43F6C119518F7A00BAD93B /* UIColor+BGMRandom.m */,
 			);
 			path = "Quartz Test";
 			sourceTree = "<group>";
@@ -232,6 +247,7 @@
 				FC43F69E19505A1900BAD93B /* Images.xcassets in Resources */,
 				FC43F69019505A1900BAD93B /* InfoPlist.strings in Resources */,
 				FC43F69919505A1900BAD93B /* Main.storyboard in Resources */,
+				FC43F6BE1951758200BAD93B /* brazil world cup.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +267,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				FC43F69219505A1900BAD93B /* main.m in Sources */,
+				FC43F6BC19512ABA00BAD93B /* BGMMyView.m in Sources */,
+				FC43F6C219518F7A00BAD93B /* UIColor+BGMRandom.m in Sources */,
 				FC43F69619505A1900BAD93B /* BGMAppDelegate.m in Sources */,
 				FC43F69C19505A1900BAD93B /* BGMViewController.m in Sources */,
 			);
